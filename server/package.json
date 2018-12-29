@@ -1,7 +1,6 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,8 +18,16 @@
     "@types/node-rsa": "^0.4.3",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "global": "^4.3.2",
     "mongoose": "^5.4.1",
     "node-rsa": "^1.0.2",
-    "nodemon": "^1.18.9"
-  }
+    "nodemon": "^1.18.9",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "description": ""
 }
